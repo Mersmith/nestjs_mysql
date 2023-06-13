@@ -1,0 +1,11 @@
+$ npm i -g @nestjs/cli
+$ nest new nestjs-mysql-crud
+
+npm run start:dev
+
+nest g module users
+
+nest g controller users --no-spec
+nest g service users --no-spec
+
+npm install --save @nestjs/typeorm typeorm mysql2

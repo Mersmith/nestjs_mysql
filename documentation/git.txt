@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Master"
+git log
+git remote add origin https://github.com/Mersmith/nestjs_mysql.git
+git push origin master
